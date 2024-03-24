@@ -1,0 +1,36 @@
+ body{
+            background-color: #11110f;
+        }
+        * {
+            color: white;
+        }
+/*
+grid 
+flex 
+*/
+.list {
+    display: flex;
+    flex-direction: row;
+    gap : 10px
+    
+  }
+.button_active {
+    background: #3df0a5da;
+    border: none;
+  }
+  
+  button {
+    background: #239d6a59;
+    border: 1px solid #239d6a;
+    padding : 10px;
+    border-radius: 50%;
+  }
+  .maininfo {
+    display: flex;
+    flex-direction: row;
+  }
+  .perrito {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
